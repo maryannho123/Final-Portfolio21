@@ -38,7 +38,6 @@ header{
     font-family: "Dancing Script", serif;
     background-repeat: no-repeat; /* Parallax effect */
     background-image: url("../images/redMountain.png"); 
-    background-attachment: fixed; /* Parallax effect */
     background-position: center; /* Parallax effect */
     background-size: cover; /* Parallax effect */
     color: #0077b6;
