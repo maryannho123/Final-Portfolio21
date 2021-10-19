@@ -1,0 +1,97 @@
+body{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', serif;
+  }
+a { 
+    font-size: 24px;
+    text-decoration: none; 
+    color:#0077b6; 
+    line-height: 1.5;
+
+}
+a:visited { 
+    text-decoration: none; 
+    color:#0077b6; 
+}
+
+a.current{
+    color:black; 
+    font-style: italic;
+}
+
+
+
+/* .container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 15px;
+} */
+img {
+    width: 100%;
+    height: 90%;
+
+  }
+header{
+    font-family: "Dancing Script", serif;
+    background-repeat: no-repeat; /* Parallax effect */
+    background-image: url("../images/redMountain.png"); 
+    background-attachment: fixed; /* Parallax effect */
+    background-position: center; /* Parallax effect */
+    background-size: cover; /* Parallax effect */
+    color: #0077b6;
+    height:250px; /* Parallax effect */
+    font-size: 72px;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    padding-top: .1875em;
+    padding-bottom: 2em;
+    /* grid-column: 1/-1;
+    grid-row:  1 / span 1; */
+    top: 50%;
+
+}
+.introduction{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.intro-image{
+
+    object-fit: fill;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}   
+.intro-heading{
+    font-size: 30px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: #5092fb;
+    background-color: white;
+    opacity: 0.9;
+    text-align: center;
+    /* grid-column: 1/-1;
+    grid-row: 2 / span 1; */
+    
+}
+.intro-paragraph{
+    text-align: center;
+    /* grid-column: 1/-1;
+    grid-row: 3 / span 1; */
+    background-color: white;
+    margin-bottom: 1em;
+}
+footer{
+    background-color: #caf0f8;
+    opacity: 0.8;
+    padding-top: 30px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;   
+}
