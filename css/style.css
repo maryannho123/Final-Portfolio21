@@ -11,6 +11,21 @@ a {
     line-height: 1.5;
 
 }
+.header{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-row: auto;
+}
+.nav{
+    grid-column: 1;
+    grid-row: 1;
+}
+.letterM{
+    height:70%;
+    width: 70%;
+    grid-column: 2;
+    grid-row: 1;
+}
 a:visited { 
     text-decoration: none; 
     color:#0077b6; 
@@ -33,11 +48,13 @@ img {
     width: 100%;
     height: 100%;
 
-  }
+}
+
 header{
     font-family: "Dancing Script", serif;
     background-repeat: no-repeat; /* Parallax effect */
     background-image: url("../images/redMountain.png"); 
+    /* background-attachment: fixed; Parallax effect */
     background-position: center; /* Parallax effect */
     background-size: cover; /* Parallax effect */
     color: #0077b6;
@@ -52,6 +69,21 @@ header{
     grid-row:  1 / span 1;
     top: 50%;
 
+}
+header h1{
+    font-size: 72px;
+}
+h1{
+    font-size: 24px;
+    color: #0077b6;
+    padding: 10%;
+    text-align: center;
+}
+h3{
+    color: #00b4d8;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-style: italic;
 }
 .introduction{
     position: relative;
@@ -162,4 +194,17 @@ footer{
     text-align: center;
     padding: 1em;
 
+}
+ul li {
+     padding: 5px 0px;
+}
+.freshmenYear, .sophmoreYear, .juniorYear, .eecs280, .eecs281, .eecs370{
+    border-top: 2px solid #25a18e;
+    opacity: 0.9;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ul{
+    list-style-type: square;
 }
