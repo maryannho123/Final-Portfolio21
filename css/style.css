@@ -208,3 +208,24 @@ ul li {
 ul{
     list-style-type: square;
 }
+.download a{
+    color:#25a18e;
+    /* justify-content: left; */
+    /* text-align: center; */
+}
+h2{
+    font-size: 17px;
+    color:#7dcfb6
+}
+.SEPP_Intern, .CU_Intern{
+    border-top: 3px solid #25a18e;
+    box-shadow: 2px 2px #68ddcb;
+
+    border-bottom: 2px solid #7dcfb6;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
