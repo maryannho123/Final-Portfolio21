@@ -11,9 +11,9 @@ a {
     line-height: 1.5;
 
 }
-.header{
+header{
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 70% 30%;
     grid-row: auto;
 }
 .nav{
@@ -34,6 +34,7 @@ a:visited {
 a.current{
     color:black; 
     font-style: italic;
+    font-weight: bold; 
 }
 
 
@@ -50,7 +51,7 @@ img {
 
 }
 
-header{
+.header{
     font-family: "Dancing Script", serif;
     background-repeat: no-repeat; /* Parallax effect */
     background-image: url("../images/redMountain.png"); 
@@ -70,17 +71,31 @@ header{
     top: 50%;
 
 }
-header h1{
-    font-size: 72px;
+.notT{
+    background: rgba(255, 255, 255, 0.7);
 }
+
+/* .bar {
+    font-size: 72px;
+    background-color: white;
+    opacity: 0.33;
+    max-height: 50%;
+    z-index: auto;
+}
+h1.ontop {
+    position: relative;
+    opacity: 1;
+} */
+
 h1{
-    font-size: 24px;
-    color: #0077b6;
+    /* font-size: 24px; */
+    color: #0f5376;
     padding: 10%;
     text-align: center;
+    opacity: 1;
 }
-h3{
-    color: #00b4d8;
+h2{
+    color: #005265;
     margin-top: 5%;
     margin-bottom: 1%;
     font-style: italic;
@@ -210,14 +225,15 @@ ul{
 }
 .download a{
     color:#25a18e;
+    text-decoration: underline;
     /* justify-content: left; */
     /* text-align: center; */
 }
-h2{
+/* h2{
     font-size: 17px;
     color:#7dcfb6
-}
-.SEPP_Intern, .CU_Intern{
+} */
+.SEPP_Intern, .CU_Intern, .MI_Intern{
     border-top: 3px solid #25a18e;
     box-shadow: 2px 2px #68ddcb;
 
@@ -228,4 +244,29 @@ h2{
     margin-top: 2%;
     margin-bottom: 2%;
 
+}
+.contactP{
+    margin-bottom: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    grid-column: 1 / span 2;
+}
+.imageC{
+    grid-column: 1;
+    grid-template-rows: 1;
+}
+.interest{
+    grid-column: 2;
+    grid-template-rows: 1;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+.containerContact{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
 }
